@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="template" client="site">
+    <name>Joomdation</name>
+    <creationDate>2024-05-28</creationDate>
+    <author>Colin Neal</author>
+    <authorEmail>colin_neal@hotmail.com</authorEmail>
+    <authorUrl>https://www.colinneal.com</authorUrl>
+    <copyright>Copyright (C) 2024 Colin Neal</copyright>
+    <version>1.0.0</version>
+    <description>Blank, boilerplate Joomla 4/5 template that integrates with the Foundation 6 CSS framework</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>css</folder>
+        <folder>js</folder>
+        <folder>images</folder>
+    </files>
+    <stylesheets>
+        <stylesheet>css/foundation.min.css</stylesheet>
+        <stylesheet>css/template.css</stylesheet>
+    </stylesheets>
+    <scripts>
+        <script>js/foundation.min.js</script>
+        <script>js/template.js</script>
+    </scripts>
+    <positions>
+        <position>topbarmenu</position>
+        <position>searchArea</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>breadcrumbs</position>
+        <position>sidebar</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>footer-leftCol</position>
+        <position>footer-centerCol</position>
+        <position>footer-rightCol</position>
+    </positions>
+</extension>

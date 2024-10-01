@@ -1,0 +1,59 @@
+header {
+    background-color: #e6e6e6;
+}
+
+.menu-icon {
+  display: block;
+  float: right;
+}
+
+.title-bar {
+  position: relative;
+  z-index: 2;
+  background-color: #e6e6e6;
+  color: #333;
+}
+
+.is-drilldown li {
+    width: 100vh;
+} 
+
+.top-bar {
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+}
+
+/* Enlarge the width of menu title items 
+.dropdown.menu > li >a {
+    padding-right: 10rem !important;
+} */
+
+/* Enlarge the dropdown menu iems 
+.dropdown .is-dropdown-submenu a {
+    padding-right: 9rem;
+} */
+
+.dropdown.menu>li.opens-left>.is-dropdown-submenu {
+    right: auto;
+}
+
+.float-start::marker, .breadcrumb-item::marker {
+    font-size: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .overlay-menu {
+    position: absolute;
+    outline: 1px solid red;
+    background-color: #e6e6e6;
+    left: 0;
+    top: 0;
+    padding: 0;
+    padding-top: 2.5em;
+    z-index: 1;
+  }
+
+}
